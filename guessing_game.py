@@ -1,3 +1,4 @@
+
 import random
 
 def guessing_game():
@@ -6,7 +7,7 @@ def guessing_game():
     
     # Generate a random number between 1 and 100
     secret_number = random.randint(1, 100)
-    
+   
     attempts = 0
     max_attempts = 5
     
